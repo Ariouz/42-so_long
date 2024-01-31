@@ -45,7 +45,7 @@ test:
 
 leaks:
 	@make $(NAME)
-	@valgrind -s --leak-check=full --show-leak-kinds=all ./$(NAME) maps/valids/map.ber
+	@valgrind -s --leak-check=full --show-leak-kinds=all ./$(NAME) maps/valids/valid_map.ber
 
 install:
 	@cd libs/mlx && ./configure && cd ../../../
