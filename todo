@@ -1,0 +1,28 @@
+- window @done
+- map reading @done
+- map rendering @done
+- window closing @done
+- .ber input from command line @done
+- map error checking @done
+- .ber extension requirement @done
+- rectangle map @done
+- check 1 E and 1 P max @done
+- check 1 E and 1 P min @done
+- check 1 coin min @done
+- check wall in borders @done
+- check valid char @done
+- coin in single image + render @done
+- count total map coins @done
+- player movement + count in shell @done
+- player direction sprite @done
+- fix transparent image @done
+- coin animated sprite @done
+- enemy animated sprite @done
+- enemy sprite + map load @done
+- collide enemy -> lose game @done
+- print movements on screen @done
+- print coins / total coins screen @done
+- check for wall collisions @done
+- remove coin image when player collide it + add coin to player @done
+- hide exit until player coin == total coins @done
+- win game & close everything @done
