@@ -48,9 +48,7 @@ leaks:
 	@valgrind -s --leak-check=full --show-leak-kinds=all ./$(NAME) maps/valids/map.ber
 
 install:
-	@cd libs/mlx
-	@./configure
-	@cd ../../
+	@cd libs/mlx && ./configure && cd ../../../
 
 libft:
 	@make -C $(LIBFT_DIR) bonus
