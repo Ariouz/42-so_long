@@ -31,7 +31,7 @@ MLX_DIR= libs/mlx
 LIBS= -lm -L$(MLX_DIR) -lmlx -I$(MLX_DIR) -lXext -lX11
 
 $(NAME): libft $(OBJS) $(GNL_OBJS)
-	gcc -g $(FLAGS) $(OBJS) $(GNL_OBJS) $(LIBFT) $(LIBS) -o $(NAME)
+	@gcc -g $(FLAGS) $(OBJS) $(GNL_OBJS) $(LIBFT) $(LIBS) -o $(NAME)
 
 %.o: %.c
 	gcc $(FLAGS) -c $< -o $@ $(LIBS)
