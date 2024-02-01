@@ -6,7 +6,7 @@
 /*   By: vicalvez <vicalvez@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/09 14:46:27 by vicalvez          #+#    #+#             */
-/*   Updated: 2024/01/31 15:14:39 by vicalvez         ###   ########.fr       */
+/*   Updated: 2024/02/01 22:33:02 by vicalvez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,7 +110,8 @@ typedef struct s_game
 	t_img				*render_img;
 }	t_game;
 
-typedef struct s_data {
+typedef struct s_data
+{
 	void	*img;
 	char	*addr;
 	int		bits_per_pixel;
